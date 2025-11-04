@@ -27,7 +27,7 @@ class Solution{
     void solve(int n,String x,int m,String s,PrintWriter out){
         for(int i=0;i<=5;i++){
             if(x.contains(s)){
-                out.println("i");
+                out.println(i);
                 return;
             }
             x=x+x;
