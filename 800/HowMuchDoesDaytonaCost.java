@@ -15,7 +15,7 @@ public class HowMuchDoesDaytonaCost{
 
             int[] arr=new int[n];
             for(int i=0;i<n;i++){
-                arr[i]=fr.nextInt();q
+                arr[i]=fr.nextInt();
 
             }
             sol.solve(n,arr,k,out);
