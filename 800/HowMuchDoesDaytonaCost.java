@@ -14,14 +14,17 @@ public class HowMuchDoesDaytonaCost{
             int k=fr.nextInt();
 
             int[] arr=new int[n];
+            for(int i=0;i<n;i++){
+                arr[i]=fr.nextInt();q
 
+            }
             sol.solve(n,arr,k,out);
         }
         out.close();
     }
 
 }
-
+//
 class Solution{
     void solve(int n,int[] arr,int k,PrintWriter out){
         for(int i=0;i<n;i++){
